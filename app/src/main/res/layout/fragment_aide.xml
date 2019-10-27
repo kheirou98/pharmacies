@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/activity_apropos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+             android:background="@drawable/gradientbackground"
+             tools:context=".aide">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+          >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#070707"
+                android:textStyle="bold|normal|italic"
+                android:background="#B4F76F"
+                android:text="Pharmcies est une application qui permet de :"
+                android:textSize="18dp"/>
+        <TextView
+                android:id="@+id/txt2"
+                android:paddingStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B4F76F"
+                android:textStyle="bold"
+                android:text="1-Créer un compte pour faire des commandes de médicaments par ordonnances.\n\n2-Consulter les pharmacies les plus proches de votre position géographique et qui sont en garde.\n\n3-Consulter toutes les pharmacies dans toutes les régions des différentes wilayas de l'Algérie.\n\n4-Prendre les ordonnances par appareil photo ou à partir de la galerie et l'envoyer par net à la pharmacie que l'utilisateur veut."
+                android:textSize="19dp"/>
+    </LinearLayout>
+</RelativeLayout>

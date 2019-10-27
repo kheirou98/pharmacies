@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradientbackground">
+    <TextView
+            android:text="Sélectionner une photo de votre ordonnance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectphoto"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|normal|italic"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" android:layout_marginTop="32dp"/>
+
+    <TextView
+            android:text="Prendre une photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewfinal"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|normal|italic"
+            android:layout_marginBottom="249dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:id="@+id/bucpat"
+            android:background="@drawable/ic_camera_alt_white"
+            android:layout_above="@+id/textViewfinal"
+            android:layout_centerHorizontal="true"
+    />
+
+    <TextView
+            android:text="Gallerie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mmm"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|normal|italic"
+            android:textSize="20sp"
+            android:layout_marginBottom="154dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textViewfinal" android:layout_marginStart="-52dp"/>
+
+    <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnChoose"
+            android:background="@drawable/ic_photo_library_white"
+            android:layout_alignBaseline="@+id/mmm"
+            android:layout_alignBottom="@+id/mmm"
+            android:layout_toEndOf="@+id/mmm" />
+
+</RelativeLayout>

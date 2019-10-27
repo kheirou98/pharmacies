@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+                android:id="@+id/frag_pharma"
+                android:background="@drawable/wallpharma"
+             tools:context=".pharmacie">
+    <TextView
+            android:text="Pharmacies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pharma"
+            android:gravity="center"
+            android:textColor="#030303"
+            android:textSize="30dp"
+            android:textStyle="bold|normal|italic"
+            android:layout_marginStart="0dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="107dp" android:layout_alignParentTop="true"/>
+
+    <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="39dp"
+            android:layout_marginStart="0dp" android:layout_below="@+id/pharma"/>
+
+    <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="0dp" android:layout_below="@+id/spinner1"/>
+    <Button
+            android:text="Consulter"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/consult"
+            android:visibility="visible"
+            android:layout_marginTop="61dp"
+            android:padding="5dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints" android:layout_below="@+id/spinner2"/>
+    <Button
+            android:text="Confirmer"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/validate"
+            android:layout_marginTop="61dp"
+            android:padding="5dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints" android:layout_below="@+id/spinner2"/>
+
+</RelativeLayout>

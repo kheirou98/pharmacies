@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item
+            android:id="@+id/connexion"
+            android:title="Se conneceter/S'inscrire"
+            android:icon="@drawable/ic_input_black_24dp"
+            android:visible="true"/>
+    <item
+            android:id="@+id/cmd"
+            android:title="Nouvelle commande"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:visible="false"/>
+
+    <item
+            android:id="@+id/profil"
+            android:title="Mon profil"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:visible="false"/>
+
+    <item
+            android:id="@+id/cmds"
+            android:title="Mes commandes"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:visible="false"/>
+    <item
+            android:id="@+id/deconnect"
+            android:title="Déconnexion"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:visible="false"/>
+
+    <item
+            android:id="@+id/contact"
+            android:title="Contactez-nous"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:visible="true"/>
+    <item
+            android:id="@+id/apropos"
+            android:title="A propos"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:visible="true"/>
+
+    <item
+            android:id="@+id/exit"
+            android:title="Quitter"
+            android:icon="@drawable/ic_close_black_24dp"
+            android:visible="true"/>
+
+</menu>
